@@ -134,8 +134,8 @@
    `(link                                      ((t (:foreground ,darktooth-bright_blue :underline t))))
    `(link-visited                              ((t (:foreground ,darktooth-bright_blue :underline nil))))
 
-   `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0_hard :box nil))))
-   `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark2 :box nil))))
+   `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark2 :box nil))))
+   `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0_hard :box nil))))
    `(fringe                                    ((t (:background ,darktooth-dark0))))
    `(linum                                     ((t (:foreground ,darktooth-dark4))))
    `(hl-line                                   ((t (:background ,darktooth-dark_purple))))
@@ -354,9 +354,9 @@
 
    ;; MODE SUPPORT: powerline
    `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line))))
-   `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line))))
-   `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive))))
-   `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive))))
+   `(powerline-active2                         ((t (:background ,darktooth-dark2 :inherit mode-line))))
+   `(powerline-inactive1                       ((t (:background ,darktooth-dark0_hard :inherit mode-line-inactive))))
+   `(powerline-inactive2                       ((t (:background ,darktooth-dark0_hard :inherit mode-line-inactive))))
 
    ;; MODE SUPPORT: smart-mode-line
    `(sml/modes                                 ((t (:foreground ,darktooth-light0_hard :weight bold :bold t))))
@@ -529,7 +529,7 @@
    `(hydra-face-teal                           ((t (:foreground ,darktooth-faded_cyan))))
 
    ;; MODE SUPPORT: ivy
-   `(ivy-current-match                         ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
+   `(ivy-current-match                         ((t (:foreground ,darktooth-light0))))
    `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
    `(ivy-minibuffer-match-face-2               ((t (:background ,darktooth-dark2))))
    `(ivy-minibuffer-match-face-3               ((t (:background ,darktooth-faded_aqua))))
@@ -537,6 +537,7 @@
    `(ivy-confirm-face                          ((t (:foreground ,darktooth-bright_green))))
    `(ivy-match-required-face                   ((t (:foreground ,darktooth-bright_red))))
    `(ivy-remote                                ((t (:foreground ,darktooth-neutral_blue))))
+   `(ivy-virtual                               ((t (:inherit ivy-subdir))))
 
    ;; MODE SUPPORT: smerge
    ;; TODO: smerge-base, smerge-refined-changed
