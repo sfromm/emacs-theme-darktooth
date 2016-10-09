@@ -134,11 +134,11 @@
    `(link                                      ((t (:foreground ,darktooth-bright_blue :underline t))))
    `(link-visited                              ((t (:foreground ,darktooth-bright_blue :underline nil))))
 
-   `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark2 :box nil))))
+   `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0_hard :box nil))))
    `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0_hard :box nil))))
    `(fringe                                    ((t (:background ,darktooth-dark0))))
    `(linum                                     ((t (:foreground ,darktooth-dark4))))
-   `(hl-line                                   ((t (:background ,darktooth-dark_purple))))
+   `(hl-line                                   ((t (:background ,darktooth-dark1))))
    `(region                                    ((t (:background ,darktooth-mid_blue :distant-foreground ,darktooth-light0))))
    `(secondary-selection                       ((t (:background ,darktooth-dark_blue))))
    `(cua-rectangle                             ((t (:background ,darktooth-mid_blue))))
@@ -353,8 +353,8 @@
    `(org-footnote                              ((t (:foreground ,darktooth-faded_aqua :underline t))))
 
    ;; MODE SUPPORT: powerline
-   `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line))))
-   `(powerline-active2                         ((t (:background ,darktooth-dark2 :inherit mode-line))))
+   `(powerline-active1                         ((t (:background ,darktooth-dark0_hard :inherit mode-line))))
+   `(powerline-active2                         ((t (:background ,darktooth-dark0_hard :inherit mode-line))))
    `(powerline-inactive1                       ((t (:background ,darktooth-dark0_hard :inherit mode-line-inactive))))
    `(powerline-inactive2                       ((t (:background ,darktooth-dark0_hard :inherit mode-line-inactive))))
 
@@ -529,7 +529,7 @@
    `(hydra-face-teal                           ((t (:foreground ,darktooth-faded_cyan))))
 
    ;; MODE SUPPORT: ivy
-   `(ivy-current-match                         ((t (:foreground ,darktooth-light0))))
+   `(ivy-current-match                         ((t nil)))
    `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
    `(ivy-minibuffer-match-face-2               ((t (:background ,darktooth-dark2))))
    `(ivy-minibuffer-match-face-3               ((t (:background ,darktooth-faded_aqua))))
