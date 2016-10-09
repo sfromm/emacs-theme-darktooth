@@ -137,7 +137,7 @@
    `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0_hard :box nil))))
    `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0_hard :box nil))))
    `(fringe                                    ((t (:background ,darktooth-dark0))))
-   `(linum                                     ((t (:foreground ,darktooth-dark4))))
+   `(linum                                     ((t (:foreground ,darktooth-dark2))))
    `(hl-line                                   ((t (:background ,darktooth-dark1))))
    `(region                                    ((t (:background ,darktooth-mid_blue :distant-foreground ,darktooth-light0))))
    `(secondary-selection                       ((t (:background ,darktooth-dark_blue))))
