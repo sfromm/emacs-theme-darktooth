@@ -530,14 +530,15 @@
 
    ;; MODE SUPPORT: ivy
    `(ivy-current-match                         ((t nil)))
-   `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
-   `(ivy-minibuffer-match-face-2               ((t (:background ,darktooth-dark2))))
-   `(ivy-minibuffer-match-face-3               ((t (:background ,darktooth-faded_aqua))))
-   `(ivy-minibuffer-match-face-4               ((t (:background ,darktooth-faded_purple))))
+   `(ivy-minibuffer-match-face-1               ((t (:background nil))))
+   `(ivy-minibuffer-match-face-2               ((t (:foreground ,darktooth-lightblue4 :underline t))))
+   `(ivy-minibuffer-match-face-3               ((t (:foreground ,darktooth-lightblue4 :underline t))))
+   `(ivy-minibuffer-match-face-4               ((t (:foreground ,darktooth-lightblue4 :underline t))))
    `(ivy-confirm-face                          ((t (:foreground ,darktooth-bright_green))))
    `(ivy-match-required-face                   ((t (:foreground ,darktooth-bright_red))))
    `(ivy-remote                                ((t (:foreground ,darktooth-neutral_blue))))
    `(ivy-virtual                               ((t (:inherit ivy-subdir))))
+   `(ivy-modified-buffer                       ((t (:foreground ,darktooth-bright_orange))))
 
    ;; MODE SUPPORT: smerge
    ;; TODO: smerge-base, smerge-refined-changed
