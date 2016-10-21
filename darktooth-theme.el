@@ -568,6 +568,9 @@
    `(git-gutter-fr+-added                      ((t (:inherit git-gutter+-added))))
    `(git-gutter-fr+-deleted                    ((t (:inherit git-gutter+-deleted))))
    `(git-gutter-fr+-modified                   ((t (:inherit git-gutter+-modified))))
+   `(git-gutter-fr:added                       ((t (:foreground ,darktooth-bright_green))))
+   `(git-gutter-fr:deleted                     ((t (:foreground ,darktooth-bright_red))))
+   `(git-gutter-fr:modified                    ((t (:foreground ,darktooth-bright_purple))))
 
    ;; MODE SUPPORT: magit
    `(magit-branch                              ((t (:foreground ,darktooth-turquoise4 :background nil))))
