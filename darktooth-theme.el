@@ -227,6 +227,9 @@
    ;; MODE SUPPORT: linum-relative
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
 
+   ;; MODE SUPPORT: nlinum-relative
+   `(nlinum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
+
    ;; MODE SUPPORT: highlight-indentation-mode
    `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark4))))
    `(highlight-indentation-face                ((t (:background ,darktooth-dark1))))
