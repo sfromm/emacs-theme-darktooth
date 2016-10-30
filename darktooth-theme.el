@@ -317,8 +317,7 @@
    ;; MODE SUPPORT: org-mode
    `(org-agenda-date-today                     ((t (:foreground ,darktooth-light2 :slant italic :weight bold))) t)
    `(org-agenda-structure                      ((t (:inherit font-lock-comment-face))))
-   `(org-archived                              ((t (:foreground ,darktooth-light0 :weight bold))))
-   `(org-checkbox                              ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0 :box (:line-width 1 :style released-button)))))
+   `(org-checkbox                              ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0))))
    `(org-date                                  ((t (:foreground ,darktooth-faded_blue :underline t))))
    `(org-deadline-announce                     ((t (:foreground ,darktooth-faded_red))))
    `(org-done                                  ((t (:foreground ,darktooth-bright_green :bold t :weight bold))))
