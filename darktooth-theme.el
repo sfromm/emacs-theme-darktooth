@@ -137,7 +137,7 @@
    `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0_hard :box nil))))
    `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0_hard :box nil))))
    `(fringe                                    ((t (:background ,darktooth-dark0))))
-   `(linum                                     ((t (:foreground ,darktooth-dark2 :slant normal))))
+   `(linum                                     ((t (:foreground ,darktooth-dark2 :slant normal :background ,darktooth-dark0))))
    `(hl-line                                   ((t (:background ,darktooth-dark1))))
    `(region                                    ((t (:background ,darktooth-mid_blue :distant-foreground ,darktooth-light0))))
    `(secondary-selection                       ((t (:background ,darktooth-dark_blue))))
@@ -228,7 +228,7 @@
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
 
    ;; MODE SUPPORT: nlinum-relative
-   `(nlinum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
+   `(nlinum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0))))
 
    ;; MODE SUPPORT: highlight-indentation-mode
    `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark4))))
