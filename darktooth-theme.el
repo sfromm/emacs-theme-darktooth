@@ -355,7 +355,8 @@
    `(org-column-title                          ((t (:background ,darktooth-dark0_hard :underline t :weight bold))))
    `(org-mode-line-clock                       ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0))))
    `(org-mode-line-clock-overrun               ((t (:foreground ,darktooth-black :background ,darktooth-bright_red))))
-   `(org-ellipsis                              ((t (:foreground ,darktooth-bright_yellow :underline t))))
+   `(org-ellipsis                              ((t (:foreground nil))))
+   ;; `(org-block                                 ((t (:foreground ,darktooth-light3))))
    `(org-footnote                              ((t (:foreground ,darktooth-faded_aqua :underline t))))
    `(org-agenda-current-time                   ((t (:foreground ,darktooth-bright_green))))
 
