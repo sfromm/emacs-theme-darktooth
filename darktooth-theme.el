@@ -176,7 +176,7 @@
    `(whitespace-hspace                         ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
    `(whitespace-tab                            ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
    `(whitespace-newline                        ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
-   `(whitespace-trailing                       ((t (:foreground ,darktooth-neutral_red :background ,darktooth-dark1))))
+   `(whitespace-trailing                       ((t (:background ,darktooth-neutral_red :foreground ,darktooth-dark1))))
    `(whitespace-line                           ((t (:foreground ,darktooth-neutral_red :background ,darktooth-dark1))))
    `(whitespace-space-before-tab               ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
    `(whitespace-indentation                    ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
