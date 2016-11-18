@@ -470,6 +470,9 @@
    `(diredp-read-priv                          ((t (:foreground ,darktooth-bright_red  :background ,darktooth-dark_red))))
    `(diredp-write-priv                         ((t (:foreground ,darktooth-bright_aqua :background ,darktooth-dark_aqua))))
 
+   ;;MODE SUPPORT: Info
+   `(Info-quoted                               ((t (:inherit org-code))))
+
    ;; MODE SUPPORT: helm
    `(helm-M-x-key                              ((t (:foreground ,darktooth-neutral_orange))))
    `(helm-action                               ((t (:foreground ,darktooth-white :underline t))))
