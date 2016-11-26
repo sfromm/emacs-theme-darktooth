@@ -171,6 +171,10 @@
    `(Man-overstrike                            ((t (:foreground ,darktooth-bright_red :bold t))))
    `(Man-underline                             ((t (:foreground ,darktooth-bright_green :bold t))))
 
+   ;; MODE SUPPORT: woman
+   `(woman-bold                                ((t (:foreground ,darktooth-bright_red :bold t))))
+   `(woman-italic                              ((t (:foreground ,darktooth-bright_green :bold t))))
+
    ;; MODE SUPPORT: whitespace-mode
    `(whitespace-space                          ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
    `(whitespace-hspace                         ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
