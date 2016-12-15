@@ -681,6 +681,14 @@
    `(term-default-fg-color                     ((t (:foreground ,darktooth-light0))))
    `(term-default-bg-color                     ((t (:background ,darktooth-dark0))))
 
+
+   ;; MODE SUPPORT: epe
+   `(epe-dir-face                              ((t (:foreground ,darktooth-bright_red :bold t :inherit nil))))
+   `(epe-git-face                              ((t (:foreground ,darktooth-bright_green :bold t))))
+
+   ;; MODE SUPPORT: eshell
+   `(eshell-ls-directory                       ((t (:foreground ,darktooth-bright_cyan))))
+
    ;; MODE SUPPORT: Elfeed
    `(elfeed-search-date-face                    ((t (:foreground ,darktooth-muted_cyan))))
    `(elfeed-search-feed-face                    ((t (:foreground ,darktooth-faded_cyan))))
