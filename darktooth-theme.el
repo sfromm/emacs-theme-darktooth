@@ -232,7 +232,7 @@
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
 
    ;; MODE SUPPORT: nlinum-relative
-   `(nlinum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0))))
+   `(nlinum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark0 :slant normal))))
 
    ;; MODE SUPPORT: highlight-indentation-mode
    `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark4))))
