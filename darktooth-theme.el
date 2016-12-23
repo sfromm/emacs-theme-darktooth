@@ -138,7 +138,7 @@
   (link-visited                              (:foreground darktooth-bright_blue :underline nil))
 
   (mode-line                                 (:foreground darktooth-light1 :background darktooth-dark0_hard :box nil))
-  (mode-line-inactive                        (:foreground darktooth-light4 :background darktooth-dark2 :box nil))
+  (mode-line-inactive                        (:foreground darktooth-light4 :background darktooth-dark0_hard :box nil))
   (fringe                                    (:background darktooth-dark0))
   (linum                                     (:foreground darktooth-dark2 :slant 'normal :background darktooth-dark0))
   ;; TODO: set up inheritance when native line numbers reach release
@@ -407,10 +407,10 @@
   (org-footnote                              (:foreground darktooth-faded_aqua :underline t))
 
   ;; MODE SUPPORT: powerline
-  (powerline-active1                         (:background darktooth-dark2 :inherit 'mode-line))
-  (powerline-active2                         (:background darktooth-dark1 :inherit 'mode-line))
-  (powerline-inactive1                       (:background darktooth-medium :inherit 'mode-line-inactive))
-  (powerline-inactive2                       (:background darktooth-dark2 :inherit 'mode-line-inactive))
+  (powerline-active1                         (:background darktooth-dark0_hard :inherit 'mode-line))
+  (powerline-active2                         (:background darktooth-dark0_hard :inherit 'mode-line))
+  (powerline-inactive1                       (:background darktooth-dark0_hard :inherit 'mode-line-inactive))
+  (powerline-inactive2                       (:background darktooth-dark0_hard :inherit 'mode-line-inactive))
 
   ;; MODE SUPPORT: smart-mode-line
   (sml/modes                                 (:foreground darktooth-light0_hard :weight 'bold :bold t))
