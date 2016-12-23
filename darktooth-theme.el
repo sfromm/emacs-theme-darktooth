@@ -580,14 +580,16 @@
   (hydra-face-teal                           (:foreground darktooth-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  (ivy-current-match                         (:foreground darktooth-light0 :background darktooth-faded_blue))
-  (ivy-minibuffer-match-face-1               (:background darktooth-dark1))
-  (ivy-minibuffer-match-face-2               (:background darktooth-dark2))
-  (ivy-minibuffer-match-face-3               (:background darktooth-faded_aqua))
-  (ivy-minibuffer-match-face-4               (:background darktooth-faded_purple))
+  (ivy-current-match                         (:foreground nil))
+  (ivy-minibuffer-match-face-1               (:background nil))
+  (ivy-minibuffer-match-face-2               (:foreground darktooth-lightblue4 :underline t))
+  (ivy-minibuffer-match-face-3               (:foreground darktooth-lightblue4 :underline t))
+  (ivy-minibuffer-match-face-4               (:foreground darktooth-lightblue4 :underline t))
   (ivy-confirm-face                          (:foreground darktooth-bright_green))
   (ivy-match-required-face                   (:foreground darktooth-bright_red))
   (ivy-remote                                (:foreground darktooth-neutral_blue))
+  (ivy-virtual                               (:inherit 'ivy-subdir))
+  (ivy-modified-buffer                       (:foreground darktooth-bright_orange))
 
   ;; MODE SUPPORT: smerge
   ;; TODO: smerge-base smerge-refined-changed
