@@ -516,6 +516,9 @@
   (diredp-read-priv                          (:foreground darktooth-bright_red  :background darktooth-dark_red))
   (diredp-write-priv                         (:foreground darktooth-bright_aqua :background darktooth-dark_aqua))
 
+  ;; MODE SUPPORT: info+
+  (Info-quoted                               (:inherit 'org-code))
+
   ;; MODE SUPPORT: helm
   (helm-M-x-key                              (:foreground darktooth-neutral_orange))
   (helm-action                               (:foreground darktooth-white :underline t))
