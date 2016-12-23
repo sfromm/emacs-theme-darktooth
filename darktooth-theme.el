@@ -144,7 +144,7 @@
   ;; TODO: set up inheritance when native line numbers reach release
   (line-number                               (:foreground darktooth-dark2))
   (line-number-current-line                  (:foreground darktooth-light4 :background darktooth-dark1))
-  (hl-line                                   (:background darktooth-dark_purple))
+  (hl-line                                   (:background darktooth-dark1))
   (region                                    (:background darktooth-mid_blue :distant-foreground darktooth-light0))
   (secondary-selection                       (:background darktooth-dark_blue))
   (cua-rectangle                             (:background darktooth-mid_blue))
