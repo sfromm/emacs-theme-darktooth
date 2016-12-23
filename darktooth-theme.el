@@ -200,7 +200,7 @@
   (whitespace-hspace                         (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-tab                            (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-newline                        (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-trailing                       (:foreground darktooth-neutral_red :background darktooth-dark1))
+  (whitespace-trailing                       (:background darktooth-neutral_red :foreground darktooth-dark1))
   (whitespace-line                           (:foreground darktooth-neutral_red :background darktooth-dark1))
   (whitespace-space-before-tab               (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-indentation                    (:foreground darktooth-dark4 :background darktooth-dark0))
