@@ -445,7 +445,7 @@
   (show-paren-mismatch                       (:foreground darktooth-light0_hard :background darktooth-faded_red))
 
   ;; MODE SUPPORT: anzu
-  (anzu-mode-line                            (:foreground darktooth-light0 :height 100 :background darktooth-faded_blue))
+  (anzu-mode-line                            (:foreground darktooth-light0 :background darktooth-faded_blue))
   (anzu-match-1                              (:foreground darktooth-dark0 :background darktooth-bright_green))
   (anzu-match-2                              (:foreground darktooth-dark0 :background darktooth-bright_yellow))
   (anzu-match-3                              (:foreground darktooth-dark0 :background darktooth-bright_cyan))
