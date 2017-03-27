@@ -374,7 +374,7 @@
   (org-deadline-announce                     (:foreground darktooth-faded_red))
   (org-document-info-keyword                 (:foreground darktooth-light2))
   (org-document-info                         (:foreground darktooth-identifiers-7))
-  (org-document-title                        (:foreground darktooth-bright_cyan :weight 'bold))
+  (org-document-title                        (:foreground darktooth-bright_cyan))
   (org-done                                  (:foreground darktooth-bright_green :bold t :weight 'bold))
   (org-formula                               (:foreground darktooth-bright_yellow))
   (org-headline-done                         (:foreground darktooth-bright_green))
