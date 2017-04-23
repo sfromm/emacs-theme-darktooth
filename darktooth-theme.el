@@ -497,25 +497,30 @@
   (company-tooltip-mouse                     (:foreground darktooth-dark0 :background darktooth-bright_blue))
   (company-tooltip-selection                 (:foreground darktooth-light0 :background darktooth-faded_blue))
 
+  ;; MODE SUPPORT: dired
+  (dired-directory                           (:foreground darktooth-bright_blue))
+  (dired-symlink                             (:foreground darktooth-faded_cyan ))
+
   ;; MODE SUPPORT: dired+
-  (diredp-file-name                          (:foreground darktooth-light2 ))
-  (diredp-file-suffix                        (:foreground darktooth-light4 ))
-  (diredp-compressed-file-suffix             (:foreground darktooth-faded_cyan ))
-  (diredp-dir-name                           (:foreground darktooth-faded_cyan ))
+  (diredp-file-name                          (:foreground darktooth-light0 ))
+  (diredp-file-suffix                        (:foreground darktooth-light0 ))
+  (diredp-compressed-file-suffix             (:inherit 'diredp-compressed-file-name))
+  (diredp-compressed-file-name               (:foreground darktooth-faded_red))
+  (diredp-dir-name                           (:inherit 'dired-directory ))
   (diredp-dir-heading                        (:foreground darktooth-bright_cyan ))
-  (diredp-symlink                            (:foreground darktooth-bright_orange ))
-  (diredp-date-time                          (:foreground darktooth-light3 ))
-  (diredp-number                             (:foreground darktooth-faded_cyan ))
+  (diredp-symlink                            (:inherit 'dired-symlink))
+  (diredp-date-time                          (:foreground darktooth-faded_blue ))
+  (diredp-number                             (:foreground darktooth-bright_green ))
   (diredp-no-priv                            (:foreground darktooth-dark4 ))
   (diredp-other-priv                         (:foreground darktooth-dark2 ))
   (diredp-rare-priv                          (:foreground darktooth-dark4 ))
   (diredp-ignored-file-name                  (:foreground darktooth-dark4 ))
 
-  (diredp-dir-priv                           (:foreground darktooth-faded_cyan  :background darktooth-dark_blue))
-  (diredp-exec-priv                          (:foreground darktooth-faded_cyan  :background darktooth-dark_blue))
-  (diredp-link-priv                          (:foreground darktooth-faded_aqua  :background darktooth-dark_aqua))
-  (diredp-read-priv                          (:foreground darktooth-bright_red  :background darktooth-dark_red))
-  (diredp-write-priv                         (:foreground darktooth-bright_aqua :background darktooth-dark_aqua))
+  (diredp-dir-priv                           (:foreground darktooth-bright_blue))
+  (diredp-exec-priv                          (:foreground darktooth-bright_green))
+  (diredp-link-priv                          (:foreground darktooth-faded_cyan))
+  (diredp-read-priv                          (:foreground darktooth-bright_yellow))
+  (diredp-write-priv                         (:foreground darktooth-bright_red))
 
   ;; MODE SUPPORT: info+
   (Info-quoted                               (:inherit 'org-code))
@@ -595,7 +600,7 @@
   (ivy-confirm-face                          (:foreground darktooth-bright_green))
   (ivy-match-required-face                   (:foreground darktooth-bright_red))
   (ivy-remote                                (:foreground darktooth-neutral_blue))
-  (ivy-virtual                               (:inherit 'ivy-subdir))
+  (ivy-virtual                               (:inherit 'font-lock-comment-face :slant 'normal))
   (ivy-modified-buffer                       (:foreground darktooth-bright_orange))
 
   ;; MODE SUPPORT: smerge
