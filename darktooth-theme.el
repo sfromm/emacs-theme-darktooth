@@ -612,6 +612,7 @@
   (ivy-remote                                (:foreground darktooth-neutral_blue))
   (ivy-virtual                               (:inherit 'font-lock-comment-face :slant 'normal))
   (ivy-modified-buffer                       (:foreground darktooth-bright_orange))
+  (ivy-highlight-face                        (:foreground nil))
 
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background darktooth-mid_purple))
