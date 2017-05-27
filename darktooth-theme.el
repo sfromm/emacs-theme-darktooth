@@ -371,6 +371,7 @@
   (org-archived                              (:foreground darktooth-light0 :weight 'bold))
   (org-date                                  (:foreground darktooth-faded_aqua :underline t))
   (org-checkbox                              (:foreground darktooth-light2 :background darktooth-dark0))
+  (org-checkbox-statistics-todo              (:inherit 'org-todo :weight 'normal))
   (org-deadline-announce                     (:foreground darktooth-faded_red))
   (org-document-info-keyword                 (:foreground darktooth-light2))
   (org-document-info                         (:foreground darktooth-identifiers-7))
