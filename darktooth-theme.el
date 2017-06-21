@@ -277,8 +277,8 @@
 
   ;; MODE SUPPORT: smartparens
   (sp-pair-overlay-face                      (:background darktooth-dark2))
-  (sp-show-pair-match-face                   (:background darktooth-dark2))
-  (sp-show-pair-mismatch-face                (:background darktooth-neutral_red))
+  (sp-show-pair-match-face                   (:foreground darktooth-light0 :background darktooth-faded_blue))
+  (sp-show-pair-mismatch-face                (:foreground darktooth-light0_hard :background darktooth-faded_red))
 
   ;; MODE SUPPORT: flycheck
   (flycheck-warning                          (:underline (:style 'wave :color darktooth-bright_yellow)))
