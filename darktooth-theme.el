@@ -615,6 +615,7 @@
   (ivy-virtual                               (:inherit 'font-lock-comment-face :slant 'normal))
   (ivy-modified-buffer                       (:foreground darktooth-bright_orange))
   (ivy-highlight-face                        (:foreground nil))
+  (ivy-prompt-match                          (:foreground nil :background darktooth-faded_blue))
 
   ;; MODE SUPPORT: smerge
   ;; TODO: smerge-base smerge-refined-changed
