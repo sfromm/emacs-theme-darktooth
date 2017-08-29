@@ -612,7 +612,7 @@
   (ivy-minibuffer-match-face-4               (:foreground darktooth-lightblue4 :underline t))
   (ivy-confirm-face                          (:foreground darktooth-bright_green))
   (ivy-match-required-face                   (:foreground darktooth-bright_red))
-  (ivy-remote                                (:foreground darktooth-neutral_blue))
+  (ivy-remote                                (:foreground darktooth-bright_purple))
   (ivy-virtual                               (:inherit 'font-lock-comment-face :slant 'normal))
   (ivy-modified-buffer                       (:foreground darktooth-bright_orange))
   (ivy-highlight-face                        (:foreground nil))
