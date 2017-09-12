@@ -737,14 +737,15 @@
   (magit-popup-disabled-argument             (:foreground darktooth-light4))
 
   ;; MODE SUPPORT: term
-  (term-color-black                          (:foreground darktooth-dark1))
-  (term-color-blue                           (:foreground darktooth-neutral_blue))
-  (term-color-cyan                           (:foreground darktooth-neutral_cyan))
-  (term-color-green                          (:foreground darktooth-neutral_green))
-  (term-color-magenta                        (:foreground darktooth-neutral_purple))
-  (term-color-red                            (:foreground darktooth-neutral_red))
-  (term-color-white                          (:foreground darktooth-light1))
-  (term-color-yellow                         (:foreground darktooth-neutral_yellow))
+  (term                                      (:inherit 'default))
+  (term-color-black                          (:foreground darktooth-dark0 :background darktooth-dark0))
+  (term-color-blue                           (:foreground darktooth-faded_blue :background darktooth-faded_blue))
+  (term-color-cyan                           (:foreground darktooth-faded_cyan :background darktooth-faded_cyan))
+  (term-color-green                          (:foreground darktooth-faded_green :background darktooth-faded_green))
+  (term-color-magenta                        (:foreground darktooth-faded_purple :background darktooth-faded_purple))
+  (term-color-red                            (:foreground darktooth-faded_red :background darktooth-faded_red))
+  (term-color-white                          (:foreground darktooth-light3 :background darktooth-light3))
+  (term-color-yellow                         (:foreground darktooth-faded_yellow :background darktooth-faded_yellow))
   (term-default-fg-color                     (:foreground darktooth-light0))
   (term-default-bg-color                     (:background darktooth-dark0))
 
