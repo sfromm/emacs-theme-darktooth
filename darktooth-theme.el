@@ -137,6 +137,7 @@
   (link                                      (:foreground darktooth-bright_blue :underline t))
   (link-visited                              (:foreground darktooth-bright_blue :underline nil))
 
+  (shadow                                    (:foreground darktooth-dark4))
   (mode-line                                 (:foreground darktooth-light1 :background darktooth-dark0_hard :box nil))
   (mode-line-inactive                        (:foreground darktooth-dark3 :background darktooth-dark0_hard :box nil))
   (fringe                                    (:background darktooth-dark0))
