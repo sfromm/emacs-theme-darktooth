@@ -614,7 +614,7 @@
   (hydra-face-teal                           (:foreground darktooth-faded_cyan))
 
   ;; MODE SUPPORT: ivy
-  (ivy-current-match                         (:foreground nil))
+  (ivy-current-match                         (:inherit 'hl-line))
   (ivy-minibuffer-match-face-1               (:background nil))
   (ivy-minibuffer-match-face-2               (:foreground darktooth-lightblue4 :underline t))
   (ivy-minibuffer-match-face-3               (:foreground darktooth-lightblue4 :underline t))
