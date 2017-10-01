@@ -536,6 +536,14 @@
   (diredp-read-priv                          (:foreground darktooth-bright_yellow))
   (diredp-write-priv                         (:foreground darktooth-bright_red))
 
+  ;; MODE SUPPORT: dired-subtree
+  (dired-subtree-depth-1-face                 (:background darktooth-dark0))
+  (dired-subtree-depth-2-face                 (:background darktooth-dark0))
+  (dired-subtree-depth-3-face                 (:background darktooth-dark0))
+  (dired-subtree-depth-4-face                 (:background darktooth-dark0))
+  (dired-subtree-depth-5-face                 (:background darktooth-dark0))
+  (dired-subtree-depth-6-face                 (:background darktooth-dark0))
+
   ;; MODE SUPPORT: info+
   (Info-quoted                               (:inherit 'org-code))
 
