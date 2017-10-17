@@ -536,6 +536,27 @@
   (diredp-read-priv                          (:foreground darktooth-bright_yellow))
   (diredp-write-priv                         (:foreground darktooth-bright_red))
 
+  ;; MODE SUPPORT: diredfl
+  (diredfl-file-name                          (:foreground darktooth-light0 ))
+  (diredfl-file-suffix                        (:inherit 'diredfl-file-name ))
+  (diredfl-compressed-file-suffix             (:inherit 'diredfl-compressed-file-name))
+  (diredfl-compressed-file-name               (:foreground darktooth-faded_red))
+  (diredfl-dir-name                           (:inherit 'dired-directory ))
+  (diredfl-dir-heading                        (:foreground darktooth-bright_cyan ))
+  (diredfl-symlink                            (:inherit 'dired-symlink))
+  (diredfl-date-time                          (:foreground darktooth-faded_blue ))
+  (diredfl-number                             (:foreground darktooth-bright_green ))
+  (diredfl-no-priv                            (:foreground darktooth-dark4 ))
+  (diredfl-other-priv                         (:foreground darktooth-dark2 ))
+  (diredfl-rare-priv                          (:foreground darktooth-dark4 ))
+  (diredfl-ignored-file-name                  (:foreground darktooth-dark4 ))
+
+  (diredfl-dir-priv                           (:foreground darktooth-bright_blue))
+  (diredfl-exec-priv                          (:foreground darktooth-bright_green))
+  (diredfl-link-priv                          (:foreground darktooth-faded_cyan))
+  (diredfl-read-priv                          (:foreground darktooth-bright_yellow))
+  (diredfl-write-priv                         (:foreground darktooth-bright_red))
+
   ;; MODE SUPPORT: dired-subtree
   (dired-subtree-depth-1-face                 (:background darktooth-dark0))
   (dired-subtree-depth-2-face                 (:background darktooth-dark0))
