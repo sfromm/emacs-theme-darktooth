@@ -683,6 +683,13 @@
   (git-gutter-fr+-deleted                    (:inherit 'git-gutter+-deleted))
   (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
+  ;; MODE SUPPORT: diff
+  (diff-file-header                               (:foreground darktooth-light0 :bold t))
+  (diff-header                                    (:foreground "grey70" :background "grey25"))
+  (diff-removed                                   (:foreground darktooth-bright_red :background darktooth-mid_red))
+  (diff-added                                     (:foreground darktooth-bright_green :background darktooth-mid_green))
+  (diff-context                                   (:foreground darktooth-dark3 :background nil))
+
   ;; MODE SUPPORT: magit
   (magit-section-highlight                   (:background darktooth-dark0_soft))
   (magit-branch                              (:foreground darktooth-turquoise4 :background nil))
