@@ -381,7 +381,7 @@
   (org-document-title                        (:foreground darktooth-bright_cyan))
   (org-done                                  (:foreground darktooth-bright_green :bold t :weight 'bold))
   (org-formula                               (:foreground darktooth-bright_yellow))
-  (org-headline-done                         (:foreground darktooth-bright_green))
+  (org-headline-done                         (:inherit 'shadow))
   (org-hide                                  (:foreground darktooth-dark0))
   (org-level-1                               (:foreground darktooth-bright_orange))
   (org-level-2                               (:foreground darktooth-bright_green))
