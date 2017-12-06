@@ -497,6 +497,13 @@
   (company-tooltip-mouse                     (:foreground darktooth-dark0 :background darktooth-bright_blue))
   (company-tooltip-selection                 (:foreground darktooth-light0 :background darktooth-faded_blue))
 
+  ;; MODE SUPPORT: eshell
+  (eshell-ls-directory                       (:foreground darktooth-bright_blue))
+  (eshell-ls-symlink                         (:foreground darktooth-faded_cyan))
+  (eshell-ls-executable                      (:foreground darktooth-bright_green))
+  (eshell-ls-product                         (:foreground "#af875f"))
+  (eshell-ls-archive                         (:foreground darktooth-bright_red))
+
   ;; MODE SUPPORT: dired
   (dired-directory                           (:foreground darktooth-bright_blue))
   (dired-symlink                             (:foreground darktooth-faded_cyan ))
