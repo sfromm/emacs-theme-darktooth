@@ -504,6 +504,9 @@
   (eshell-ls-product                         (:foreground "#af875f"))
   (eshell-ls-archive                         (:foreground darktooth-bright_red))
 
+  ;; MODE SUPPORT: egp
+  (egp-dir-face                              (:foreground darktooth-light3))
+
   ;; MODE SUPPORT: dired
   (dired-directory                           (:foreground darktooth-bright_blue))
   (dired-symlink                             (:foreground darktooth-faded_cyan ))
