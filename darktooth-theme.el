@@ -569,6 +569,10 @@
   (dired-subtree-depth-5-face                 (:background darktooth-dark0))
   (dired-subtree-depth-6-face                 (:background darktooth-dark0))
 
+  ;; MODE SUPPORT: info
+  (info-title-4                                 (:weight 'bold))
+  (info-menu-header                             (:weight 'bold))
+
   ;; MODE SUPPORT: info+
   (Info-quoted                               (:inherit 'org-code))
 
