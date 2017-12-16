@@ -415,6 +415,16 @@
   (org-agenda-current-time                   (:foreground darktooth-bright_green))
   (org-list-dt                               (:inherit 'font-lock-keyword-face))
 
+  ;; MODE SUPPORT: markdown
+  (markdown-code-face                        (:foreground darktooth-light2 :background darktooth-dark0_soft))
+  (markdown-inline-code-face                 (:foreground darktooth-light2 :background darktooth-dark0_soft))
+  (markdown-header-face-1                    (:foreground darktooth-bright_orange))
+  (markdown-header-face-2                    (:foreground darktooth-bright_green))
+  (markdown-header-face-3                    (:foreground darktooth-bright_blue))
+  (markdown-header-face-4                    (:foreground darktooth-bright_yellow))
+  (markdown-header-face-5                    (:foreground darktooth-faded_aqua))
+  (markdown-header-face-6                    (:foreground darktooth-bright_green))
+
   ;; MODE SUPPORT: powerline
   (powerline-active1                         (:background darktooth-dark0_hard :inherit 'mode-line))
   (powerline-active2                         (:background darktooth-dark0_hard :inherit 'mode-line))
