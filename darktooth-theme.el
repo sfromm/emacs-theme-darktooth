@@ -975,7 +975,7 @@
                                                   ,darktooth-faded_purple
                                                   ,darktooth-faded_cyan
                                                   ,darktooth-light3])
-                             `(xterm-color-names-bright ["686868"
+                             `(xterm-color-names-bright ["#686868"
                                                          ,darktooth-bright_red
                                                          ,darktooth-bright_green
                                                          ,darktooth-bright_yellow
