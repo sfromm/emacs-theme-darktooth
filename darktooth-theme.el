@@ -199,16 +199,16 @@
   (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
 
   ;; MODE SUPPORT: whitespace-mode
-  (whitespace-space                          (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-hspace                         (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-tab                            (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-newline                        (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-trailing                       (:background darktooth-neutral_red :foreground darktooth-dark1))
-  (whitespace-line                           (:foreground darktooth-neutral_red :background darktooth-dark1))
-  (whitespace-space-before-tab               (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-indentation                    (:foreground darktooth-dark4 :background darktooth-dark0))
-  (whitespace-empty                          (:foreground nil :background nil))
-  (whitespace-space-after-tab                (:foreground darktooth-dark4 :background darktooth-dark0))
+  (whitespace-space                          (:background darktooth-neutral_red))
+  (whitespace-hspace                         (:background darktooth-neutral_red))
+  (whitespace-tab                            (:background darktooth-neutral_red))
+  (whitespace-newline                        (:background darktooth-neutral_red))
+  (whitespace-trailing                       (:background darktooth-neutral_red))
+  (whitespace-line                           (:background darktooth-neutral_red))
+  (whitespace-space-before-tab               (:background darktooth-neutral_red))
+  (whitespace-indentation                    (:background darktooth-neutral_red))
+  (whitespace-empty                          (:background darktooth-neutral_red))
+  (whitespace-space-after-tab                (:background darktooth-neutral_red))
 
   ;; MODE SUPPORT: rainbow-delimiters
   (rainbow-delimiters-depth-1-face           (:foreground darktooth-delimiter-one))
