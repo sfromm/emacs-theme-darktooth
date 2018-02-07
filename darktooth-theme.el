@@ -407,7 +407,7 @@
   (org-column-title                          (:background darktooth-dark0_hard :underline t :weight 'bold))
   (org-mode-line-clock                       (:foreground darktooth-light2 :background darktooth-dark0))
   (org-mode-line-clock-overrun               (:foreground darktooth-black :background darktooth-bright_red))
-  (org-ellipsis                              (:foreground nil))
+  (org-ellipsis                              (:inherit 'font-lock-comment-face :slant 'normal))
   (org-footnote                              (:foreground darktooth-faded_aqua :underline t))
   (org-block                                 (:foreground darktooth-light2 :background darktooth-dark0_soft))
   (org-code                                  (:foreground darktooth-light2 :background darktooth-dark0_soft))
