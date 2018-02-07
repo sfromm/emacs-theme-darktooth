@@ -414,6 +414,7 @@
   (org-verbatim                              (:foreground darktooth-light2 :background darktooth-dark0_soft))
   (org-agenda-current-time                   (:foreground darktooth-bright_green))
   (org-list-dt                               (:inherit 'font-lock-keyword-face))
+  (org-agenda-done                           (:foreground darktooth-bright_green))
 
   ;; MODE SUPPORT: markdown
   (markdown-code-face                        (:foreground darktooth-light2 :background darktooth-dark0_soft))
