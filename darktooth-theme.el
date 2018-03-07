@@ -140,7 +140,7 @@
   (shadow                                    (:foreground darktooth-dark4))
   (mode-line                                 (:foreground darktooth-light1 :background darktooth-dark0_hard :box nil))
   (mode-line-inactive                        (:foreground darktooth-dark3 :background darktooth-dark0_hard :box nil))
-  (fringe                                    (:background darktooth-dark0))
+  (fringe                                    (:foreground darktooth-dark4 :background darktooth-dark0))
   (linum                                     (:foreground darktooth-dark2 :slant 'normal :background darktooth-dark0))
   ;; TODO: set up inheritance when native line numbers reach release
   (line-number                               (:foreground darktooth-dark2))
