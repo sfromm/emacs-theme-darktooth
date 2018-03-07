@@ -152,7 +152,9 @@
   (header-line                               (:foreground darktooth-turquoise4 :background darktooth-dark0 :bold nil))
   (minibuffer-prompt                         (:foreground darktooth-bright_cyan :background darktooth-dark0 :bold nil))
   (vertical-border                           (:foreground darktooth-dark3))
-  (window-divider                            (:inherit 'vertical-border))
+  (window-divider                            (:foreground darktooth-dark0))
+  (window-divider-first-pixel                (:inherit 'vertical-border))
+  (window-divider-last-pixel                 (:inherit 'window-divider))
 
   ;; compilation messages (also used by several other modes)
   (compilation-info                          (:foreground darktooth-neutral_green))
