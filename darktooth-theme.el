@@ -185,12 +185,12 @@
   (elixir-attribute-face                     (:foreground darktooth-burlywood4))
 
   ;; MODE SUPPORT: man
-  (Man-overstrike                            (:foreground darktooth-bright_red :bold t))
-  (Man-underline                             (:foreground darktooth-bright_green :bold t))
+  (Man-overstrike                            (:foreground darktooth-sienna :bold t))
+  (Man-underline                             (:foreground darktooth-aquamarine4 :bold t))
 
   ;; MODE SUPPORT: woman
-  (woman-bold                               (:foreground darktooth-bright_red :bold t))
-  (woman-italic                             (:foreground darktooth-bright_green :bold t))
+  (woman-bold                               (:foreground darktooth-sienna :bold t))
+  (woman-italic                             (:foreground darktooth-aquamarine4 :bold t))
 
   ;; MODE SUPPORT: tldr
   (tldr-command-itself                       (:foreground darktooth-bright_red :bold t))
