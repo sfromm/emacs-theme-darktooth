@@ -504,7 +504,6 @@
   ;; MODE SUPPORT: company
   (company-echo                              (:inherit 'company-echo-common))
   (company-echo-common                       (:foreground darktooth-bright_blue :background nil))
-  (company-preview-common                    (:underline darktooth-light1))
   (company-preview                           (:inherit 'company-preview-common))
   (company-preview-search                    (:inherit 'company-preview-common))
   (company-template-field                    (:foreground darktooth-bright_blue :background nil :underline darktooth-dark_blue))
