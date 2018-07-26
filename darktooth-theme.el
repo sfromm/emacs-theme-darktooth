@@ -878,6 +878,9 @@
   (emms-playlist-selected-face               (:foreground darktooth-bright_red))
   (emms-playlist-track-face                  (:foreground darktooth-light2))
 
+  ;; MODE SUPPORT: evil-mc
+  (evil-mc-cursor-default-face               (:inherit 'default :inverse-video t))
+
   ;; MODE SUPPORT: sx
   (sx-question-list-answers                  (:foreground darktooth-bright_green))
   (sx-question-mode-content-face             (:foreground darktooth-light2 :background darktooth-dark0_soft))
