@@ -854,6 +854,9 @@
   (erc-nick-default-face                     (:weight 'bold))
   (erc-button                                (:inherit 'link))
 
+  ;; MODE SUPPORT: sx
+  (sx-question-list-answers                  (:foreground darktooth-bright_green))
+  (sx-question-mode-content-face             (:foreground darktooth-light2 :background darktooth-dark0_soft))
   ) ;; autothemer end of reduced-specs
 
  ;; autothemer body
