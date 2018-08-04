@@ -668,6 +668,9 @@
   (ivy-highlight-face                        (:foreground nil))
   (ivy-prompt-match                          (:foreground nil :background darktooth-faded_blue))
 
+  ;; MODE SUPPORT: counsel
+  (counsel-key-binding                       (:inherit font-lock-keyword-face :slant 'normal))
+
   ;; MODE SUPPORT: smerge
   (smerge-upper                              (:background darktooth-mid_purple))
   (smerge-lower                              (:background darktooth-mid_blue))
@@ -792,6 +795,9 @@
   (magit-refname                             (:foreground darktooth-light2))
   (magit-head                                (:inherit 'magit-branch-local))
   (magit-popup-disabled-argument             (:foreground darktooth-light4))
+
+  ;; MODE SUPPORT: git-commit
+  (git-commit-summary                        (:inherit 'font-lock-type-face :slant 'normal))
 
   ;; MODE SUPPORT: term
   (term                                      (:inherit 'default))
