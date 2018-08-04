@@ -856,7 +856,7 @@
   ;; MODE SUPPORT: erc
   (erc-action-face                           (:inherit 'erc-default-face))
   (erc-bold-face                             (:weight 'bold))
-  (erc-current-nick-face                     (:foreground darktooth-aquamarine4 :weight 'bold))
+  (erc-current-nick-face                     (:foreground darktooth-aquamarine4 :weight 'bold :slant 'italic))
   (erc-nick-default-face                     (:foreground darktooth-sienna))
   (erc-dangerous-host-face                   (:inherit 'font-lock-warning-face))
   (erc-default-face                          (:inherit 'default))
