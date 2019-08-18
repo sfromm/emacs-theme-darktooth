@@ -812,6 +812,16 @@
   (term-default-fg-color                     (:foreground darktooth-light0))
   (term-default-bg-color                     (:background darktooth-dark0))
 
+  ;; MODE SUPPORT: vterm
+  (vterm-color-black                          (:inherit 'term-color-black :background "#686868"))
+  (vterm-color-blue                           (:inherit 'term-color-blue :background darktooth-bright_blue))
+  (vterm-color-cyan                           (:inherit 'term-color-cyan :background darktooth-bright_cyan))
+  (vterm-color-green                          (:inherit 'term-color-green :background darktooth-bright_green))
+  (vterm-color-magenta                        (:inherit 'term-color-magenta :background darktooth-bright_purple))
+  (vterm-color-red                            (:inherit 'term-color-red :background darktooth-bright_red))
+  (vterm-color-white                          (:inherit 'term-color-white :background darktooth-light0))
+  (vterm-color-yellow                         (:inherit 'term-color-yellow :background darktooth-bright_yellow))
+
   ;; MODE SUPPORT: Elfeed
   (elfeed-search-date-face                   (:foreground darktooth-muted_cyan))
   (elfeed-search-feed-face                   (:foreground darktooth-faded_cyan))
