@@ -164,15 +164,15 @@
   (warning                                   (:foreground darktooth-bright_yellow :bold t))
 
   ;; Built-in syntax
-  (font-lock-builtin-face                            (:foreground darktooth-bright_orange :slant 'italic))
-  (font-lock-constant-face                           (:foreground darktooth-burlywood4 :slant 'italic))
-  (font-lock-comment-face                            (:foreground darktooth-dark4 :slant 'italic))
-  (font-lock-function-name-face                      (:foreground darktooth-light4))
-  (font-lock-keyword-face                            (:foreground darktooth-sienna :slant 'italic))
-  (font-lock-string-face                             (:foreground darktooth-darkslategray4))
-  (font-lock-variable-name-face                      (:foreground darktooth-aquamarine4))
-  (font-lock-type-face                               (:foreground darktooth-lightblue4 :slant 'italic))
-  (font-lock-warning-face                            (:foreground darktooth-neutral_red :bold t))
+  (font-lock-builtin-face                    (:foreground darktooth-bright_orange :slant 'italic))
+  (font-lock-constant-face                   (:foreground darktooth-burlywood4 :slant 'italic))
+  (font-lock-comment-face                    (:foreground darktooth-dark4 :slant 'italic))
+  (font-lock-function-name-face              (:foreground darktooth-light4))
+  (font-lock-keyword-face                    (:foreground darktooth-sienna :slant 'italic))
+  (font-lock-string-face                     (:foreground darktooth-darkslategray4))
+  (font-lock-variable-name-face              (:foreground darktooth-aquamarine4))
+  (font-lock-type-face                       (:foreground darktooth-lightblue4 :slant 'italic))
+  (font-lock-warning-face                    (:foreground darktooth-neutral_red :bold t))
 
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
@@ -189,8 +189,8 @@
   (Man-underline                             (:foreground darktooth-aquamarine4))
 
   ;; MODE SUPPORT: woman
-  (woman-bold                               (:foreground darktooth-sienna))
-  (woman-italic                             (:foreground darktooth-aquamarine4))
+  (woman-bold                                (:foreground darktooth-sienna))
+  (woman-italic                              (:foreground darktooth-aquamarine4))
 
   ;; MODE SUPPORT: tldr
   (tldr-command-itself                       (:foreground darktooth-bright_red :bold t))
@@ -297,11 +297,11 @@
   (flycheck-error-list-info                  (:foreground darktooth-bright_blue :bold t))
 
   ;; MODE SUPPORT: flymake
-  (flymake-warning                          (:underline (:style 'wave :color darktooth-bright_yellow)))
-  (flymake-error                            (:underline (:style 'wave :color darktooth-bright_red)))
-  (flymake-note                             (:underline (:style 'wave :color darktooth-bright_blue)))
-  (flymake-errline                          (:underline (:style 'wave :color darktooth-bright_red)))
-  (flymake-warline                          (:underline (:style 'wave :color darktooth-bright_yellow)))
+  (flymake-warning                           (:underline (:style 'wave :color darktooth-bright_yellow)))
+  (flymake-error                             (:underline (:style 'wave :color darktooth-bright_red)))
+  (flymake-note                              (:underline (:style 'wave :color darktooth-bright_blue)))
+  (flymake-errline                           (:underline (:style 'wave :color darktooth-bright_red)))
+  (flymake-warline                           (:underline (:style 'wave :color darktooth-bright_yellow)))
 
   ;; MODE SUPPORT: auctex
   (font-latex-math-face                      (:foreground darktooth-lightblue4))
