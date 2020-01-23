@@ -418,6 +418,16 @@
   (org-list-dt                               (:inherit 'font-lock-keyword-face))
   (org-agenda-done                           (:foreground darktooth-bright_green))
 
+  ;; MODE SUPPORT: outline
+  (outline-1 (:inherit 'org-level-1))
+  (outline-2 (:inherit 'org-level-2))
+  (outline-3 (:inherit 'org-level-3))
+  (outline-4 (:inherit 'org-level-4))
+  (outline-5 (:inherit 'org-level-5))
+  (outline-6 (:inherit 'org-level-6))
+  (outline-7 (:inherit 'org-level-7))
+  (outline-8 (:inherit 'org-level-8))
+
   ;; MODE SUPPORT: markdown
   (markdown-code-face                        (:foreground darktooth-light2 :background darktooth-dark0_soft))
   (markdown-inline-code-face                 (:foreground darktooth-light2 :background darktooth-dark0_soft))
