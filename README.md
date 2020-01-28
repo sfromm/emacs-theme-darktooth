@@ -1,17 +1,23 @@
-[![MELPA](http://stable.melpa.org/packages/darktooth-theme-badge.svg)](http://stable.melpa.org/#/darktooth-theme) [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
-
 ![](palette-images/header.png)
 
 a theme for Emacs
 
+This is a fork of the official [darktooth](https://github.com/sfromm/emacs-theme-darktooth) theme.
+
+
 ## Installation
 
-Darktooth is easily installed via MELPA.  [Read more here for MELPA setup details](http://melpa.org/#/getting-started)
+As this is a fork of the official theme, it is not presently available to install via [MELPA](http://melpa.org).
 
-When your Emacs is setup to use MELPA do this:
+You can use [Quelpa](https://github.com/quelpa/quelpa) to install this theme or clone the repository and install it manually.
 
-```
-M-x package-install darktooth-theme
+``` emacs-lisp
+(use-package darktooth
+  :ensure t
+  :quelpa
+  ((darktooth-theme :fetcher github
+                    :repo "sfromm/emacs-theme-darktooth")
+   :upgrade t))
 ```
 
 ## Modes supported
@@ -57,6 +63,7 @@ M-x package-install darktooth-theme
 - magit
 - man
 - message
+- notmuch
 - org-mode
 - popup
 - powerline
@@ -160,5 +167,6 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 Inspired by:
 
+[darktooth](https://github.com/sfromm/emacs-theme-darktooth)
 [gruvbox](https://github.com/Greduan/emacs-theme-gruvbox)
 [soothe](https://github.com/emacsfodder/emacs-soothe-theme)
