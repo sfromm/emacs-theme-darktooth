@@ -217,6 +217,7 @@ Also bind `class' to ((class color) (min-colors 89))."
   ;; basic coloring
   '(button ((t (:underline t))))
   `(default ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0))))
+  `(variable-pitch ((t (:height ,darktooth-scale-plus-1))))
   `(cursor ((t (:background ,darktooth-light0))))
   `(link ((t (:foreground ,darktooth-bright-blue :underline t))))
   `(link-visited ((t (:foreground ,darktooth-bright-blue :underline nil))))
