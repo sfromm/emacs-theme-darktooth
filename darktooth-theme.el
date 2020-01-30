@@ -38,14 +38,20 @@
   :link '(url-link :tag "GitHub" "http://github.com/sfromm/emacs-theme-darktooth")
   :tag "Darktooth theme")
 
-(defcustom darktooth-use-variable-pitch nil
+(defcustom darktooth-headings-use-variable-pitch nil
   "Use variable pitch face for some headings and titles."
   :type 'boolean
   :group 'darktooth-theme
   :package-version '(darktooth . "0.4"))
 
-(defcustom darktooth-scale-headings t
+(defcustom darktooth-headings-scale nil
   "Whether headings should be scaled."
+  :type 'boolean
+  :group 'darktooth-theme
+  :package-version '(darktooth . "0.4"))
+
+(defcustom darktooth-headings-highlight nil
+  "Whether headings should be highlighted."
   :type 'boolean
   :group 'darktooth-theme
   :package-version '(darktooth . "0.4"))
@@ -201,7 +207,7 @@ Also bind `class' to ((class color) (min-colors 89))."
                      (list (intern (car cons)) (cdr cons)))
                    (append darktooth-default-colors-alist
                            darktooth-override-colors-alist))
-         (darktooth--variable-pitch (if darktooth-use-variable-pitch
+         (darktooth--variable-pitch (if darktooth-headings-use-variable-pitch
                                         'variable-pitch 'default)))
      ,@body))
 
@@ -768,12 +774,14 @@ Also bind `class' to ((class color) (min-colors 89))."
   ;; markdown
   `(markdown-code-face ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0-soft))))
   `(markdown-inline-code-face ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0-soft))))
-  `(markdown-header-face-1 ((t (:foreground ,darktooth-bright-orange))))
-  `(markdown-header-face-2 ((t (:foreground ,darktooth-bright-green))))
-  `(markdown-header-face-3 ((t (:foreground ,darktooth-bright-blue))))
-  `(markdown-header-face-4 ((t (:foreground ,darktooth-bright-yellow))))
-  `(markdown-header-face-5 ((t (:foreground ,darktooth-faded-aqua))))
-  `(markdown-header-face-6 ((t (:foreground ,darktooth-bright-green))))
+  `(markdown-header-face-1 ((t (:inherit org-level-1))))
+  `(markdown-header-face-2 ((t (:inherit org-level-2))))
+  `(markdown-header-face-3 ((t (:inherit org-level-3))))
+  `(markdown-header-face-4 ((t (:inherit org-level-4))))
+  `(markdown-header-face-5 ((t (:inherit org-level-5))))
+  `(markdown-header-face-6 ((t (:inherit org-level-6))))
+  `(markdown-header-face-7 ((t (:inherit org-level-7))))
+  `(markdown-header-face-8 ((t (:inherit org-level-8))))
 
   ;; message
   `(message-header-to ((t (:foreground ,darktooth-bright-cyan ))))
@@ -824,17 +832,23 @@ Also bind `class' to ((class color) (min-colors 89))."
   `(org-hide ((t (:foreground ,darktooth-dark0))))
   `(org-level-1 ((t (:inherit ,darktooth--variable-pitch
                               :foreground ,darktooth-bright-orange
-                              ,@(when darktooth-scale-headings
+                              :background ,(when darktooth-headings-highlight darktooth-dark-orange)
+                              ,@(when darktooth-headings-scale
                                    (list :height darktooth-scale-plus-4))))))
   `(org-level-2 ((t (:inherit ,darktooth--variable-pitch
                               :foreground ,darktooth-bright-green
-                              ,@(when darktooth-scale-headings
+                              :background ,(when darktooth-headings-highlight darktooth-dark-green)
+                              ,@(when darktooth-headings-scale
                                   (list :height darktooth-scale-plus-3))))))
-  `(org-level-3 ((t (:inherit ,darktooth--variable-pitch :foreground ,darktooth-bright-blue
-                              ,@(when darktooth-scale-headings
+  `(org-level-3 ((t (:inherit ,darktooth--variable-pitch
+                              :foreground ,darktooth-bright-blue
+                              :background ,(when darktooth-headings-highlight darktooth-dark-blue)
+                              ,@(when darktooth-headings-scale
                                    (list :height darktooth-scale-plus-2))))))
-  `(org-level-4 ((t (:inherit ,darktooth--variable-pitch :foreground ,darktooth-bright-yellow
-                              ,@(when darktooth-scale-headings
+  `(org-level-4 ((t (:inherit ,darktooth--variable-pitch
+                              :foreground ,darktooth-bright-yellow
+                              :background ,(when darktooth-headings-highlight darktooth-dark-yellow)
+                              ,@(when darktooth-headings-scale
                                    (list :height darktooth-scale-plus-1))))))
   `(org-level-5 ((t (:inherit ,darktooth--variable-pitch :foreground ,darktooth-faded-aqua))))
   `(org-level-6 ((t (:inherit ,darktooth--variable-pitch :foreground ,darktooth-bright-green))))
