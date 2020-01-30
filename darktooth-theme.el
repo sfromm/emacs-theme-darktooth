@@ -222,39 +222,28 @@ Also bind `class' to ((class color) (min-colors 89))."
 
   ;; basic coloring
   '(button ((t (:underline t))))
-  `(default ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0))))
-  `(variable-pitch ((t (:height ,darktooth-scale-plus-1))))
+  `(cua-rectangle ((t (:background ,darktooth-mid-blue))))
   `(cursor ((t (:background ,darktooth-light0))))
-  `(link ((t (:foreground ,darktooth-bright-blue :underline t))))
-  `(link-visited ((t (:foreground ,darktooth-bright-blue :underline nil))))
+  `(default ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0))))
+  `(error ((t (:foreground ,darktooth-bright-red :bold t))))
   `(fringe ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
   `(header-line ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil))))
-  ;;
-  `(lazy-highlight ((t (:foreground ,darktooth-light0 :background ,darktooth-dark2))))
   `(highlight ((t (:foreground ,darktooth-light0-hard :background ,darktooth-faded-blue))))
-  `(shadow ((t (:foreground ,darktooth-dark4))))
-  `(match ((t (:foreground ,darktooth-light0 :background ,darktooth-dark2))))
-  `(error ((t (:foreground ,darktooth-bright-red :bold t))))
-  `(success ((t (:foreground ,darktooth-neutral-green :bold t))))
-  `(warning ((t (:foreground ,darktooth-bright-yellow :bold t))))
-  `(tooltip ((t (:foreground ,darktooth-light0 :background ,darktooth-dark1))))
-  ;;
-  `(minibuffer-prompt ((t (:foreground ,darktooth-bright-cyan :background ,darktooth-dark0 :bold nil))))
-  `(mode-line ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0-hard :box nil))))
-  `(mode-line-buffer-id ((t (:foreground ,darktooth-bright-yellow :weight bold))))
-  `(mode-line-inactive ((t (:foreground ,darktooth-dark3 :background ,darktooth-dark0-hard :box nil))))
-  ;;
-  `(linum ((t (:foreground ,darktooth-dark2 :slant normal :background ,darktooth-dark0))))
-  ;; line numbers, >= emacs-26.1
-  `(line-number ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
-  `(line-number-current-line ((t (:inherit line-number :foreground ,darktooth-bright-yellow))))
-  ;;
   `(hl-line ((t (:background ,darktooth-dark1))))
+  `(lazy-highlight ((t (:foreground ,darktooth-light0 :background ,darktooth-dark2))))
+  `(link ((t (:foreground ,darktooth-bright-blue :underline t))))
+  `(link-visited ((t (:foreground ,darktooth-bright-blue :underline nil))))
+  `(match ((t (:foreground ,darktooth-light0 :background ,darktooth-dark2))))
+  `(minibuffer-prompt ((t (:foreground ,darktooth-bright-cyan :background ,darktooth-dark0 :bold nil))))
   `(region ((t (:background ,darktooth-mid-blue :distant-foreground ,darktooth-light0))))
   `(secondary-selection ((t (:background ,darktooth-dark-blue))))
-  `(cua-rectangle ((t (:background ,darktooth-mid-blue))))
+  `(shadow ((t (:foreground ,darktooth-dark4))))
+  `(success ((t (:foreground ,darktooth-neutral-green :bold t))))
+  `(tooltip ((t (:foreground ,darktooth-light0 :background ,darktooth-dark1))))
   `(trailing-whitespace ((t (:background ,darktooth-faded-red))))
+  `(variable-pitch ((t (:height ,darktooth-scale-plus-1))))
   `(vertical-border ((t (:foreground ,darktooth-dark3))))
+  `(warning ((t (:foreground ,darktooth-bright-yellow :bold t))))
   `(window-divider ((t (:foreground ,darktooth-dark0))))
   `(window-divider-first-pixel ((t (:inherit 'vertical-border))))
   `(window-divider-last-pixel ((t (:inherit 'window-divider))))
@@ -678,6 +667,13 @@ Also bind `class' to ((class color) (min-colors 89))."
   `(js2-jsdoc-html-tag-name ((t (:foreground ,darktooth-light4 :background nil))))
   `(js2-jsdoc-html-tag-delimiter ((t (:foreground ,darktooth-light3 :background nil))))
 
+  ;; linum
+  `(linum ((t (:foreground ,darktooth-dark2 :slant normal :background ,darktooth-dark0))))
+
+  ;; line numbers, >= emacs-26.1
+  `(line-number ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
+  `(line-number-current-line ((t (:inherit line-number :foreground ,darktooth-bright-yellow))))
+
   ;; linum-relative
   `(linum-relative-current-face ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
 
@@ -794,6 +790,11 @@ Also bind `class' to ((class color) (min-colors 89))."
   `(message-separator ((t (:foreground ,darktooth-faded-cyan ))))
   `(message-cited-text ((t (:foreground ,darktooth-light3 ))))
   `(message-mml ((t (:foreground ,darktooth-faded-aqua ))))
+
+  ;; mode-line
+  `(mode-line ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0-hard :box nil))))
+  `(mode-line-buffer-id ((t (:foreground ,darktooth-bright-yellow :weight bold))))
+  `(mode-line-inactive ((t (:foreground ,darktooth-dark3 :background ,darktooth-dark0-hard :box nil))))
 
   ;; notmuch
   `(notmuch-hello-logo-background ((t (:inherit 'default))))
