@@ -1055,6 +1055,9 @@ Also bind `class' to ((class color) (min-colors 89))."
   `(whitespace-empty ((t (:background ,darktooth-neutral-red))))
   `(whitespace-space-after-tab ((t (:background ,darktooth-neutral-red))))
 
+  ;; widget
+  `(widget-field ((t (:background ,darktooth-dark3))))
+
   ;; woman
   `(woman-bold ((t (:foreground ,darktooth-sienna))))
   `(woman-italic ((t (:foreground ,darktooth-aquamarine4))))
