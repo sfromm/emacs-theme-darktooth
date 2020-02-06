@@ -1,4 +1,4 @@
-;;; darktooth-theme.el --- A dark theme.
+;;; darktooth-theme.el --- A dark theme -*- lexical-binding: t; -*-
 
 ;; Copyright (c) 2020 Stephen Fromm
 ;; Copyright (c) 2015-2016 Jason Milkins
@@ -459,6 +459,9 @@ Also bind `class' to ((class color) (min-colors 89))."
 
   ;; evil-mc
   `(evil-mc-cursor-default-face ((t (:inherit 'default :inverse-video t))))
+
+  ;; eyebrowse
+  `(eyebrowse-mode-line-active ((,class (:foreground ,darktooth-bright-blue :weight bold))))
 
   ;; flycheck
   `(flycheck-warning ((t (:underline (:style wave :color ,darktooth-bright-yellow)))))
@@ -994,6 +997,14 @@ Also bind `class' to ((class color) (min-colors 89))."
 
   ;; table
   `(table-cell ((t (:inherit 'default))))
+
+  ;; telephone
+  `(telephone-line-accent-active ((,class (:background ,darktooth-faded-blue :foreground ,darktooth-light0))))
+  `(telephone-line-accent-inactive ((,class (:background ,darktooth-dark0 :foreground ,darktooth-light4))))
+  `(telephone-line-error ((,class (:foreground ,darktooth-bright-red :weight bold))))
+  `(telephone-line-projectile ((,class (:foreground ,darktooth-neutral-cyan))))
+  `(telephone-line-unimportant ((,class (:foreground ,darktooth-burlywood4))))
+  `(telephone-line-warning ((,class (:foreground ,darktooth-bright-yellow :weight bold))))
 
   ;; term
   `(term ((t (:inherit 'default))))
